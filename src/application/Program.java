@@ -13,7 +13,7 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 	
 		Product product = new Product();
-		System.out.print("Enter product data: ");
+		System.out.println("Enter product data: ");
 		System.out.print("Name: ");
 		product.Name = sc.nextLine();
 		System.out.print("Prince: ");
@@ -22,6 +22,7 @@ public class Program {
 		product.quantity = sc.nextInt();	
 		System.out.println(product.Name + ", " + product.price + " , " + product.quantity);
 		
+		System.out.println("Olá Mundo!!!");
 		sc.close();
 	}
 	
